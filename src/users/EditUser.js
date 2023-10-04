@@ -47,7 +47,7 @@ export default function EditUser() {
     <div className='conatiner'>
          <div className='row'>
                 <div className='col-md-6 offset-md-3 border rounded p-4 mt-4 shadow bg-light'>
-                  <h2 className='text-center mt-2'>Update User</h2>
+                  <h2 className='text-center mt-2'>Update User list</h2>
                   <form onSubmit= {(e)=>onSubmit(e)}>
                   <div className='mb-3'>
                     <label htmlFor="Name" className='form-lable'>Name</label>
